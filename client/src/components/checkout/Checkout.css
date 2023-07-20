@@ -1,0 +1,33 @@
+.checkout-container{
+    height: calc(100vh - 60px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkout-wrapper{
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.checkout-wrapper > h2{
+    font-weight: bold;
+    font-size: 36px;
+    white-space: nowrap;
+}
+
+.checkout-wrapper > p{
+    font-size: 28px;
+    font-weight: 500;
+    color: #333;
+}
+
+.checkout-wrapper > span{
+    font-size: 24px;
+    color: #555;
+}

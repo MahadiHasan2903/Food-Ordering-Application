@@ -1,0 +1,130 @@
+.nav-container{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid #d3c5c5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 99999; 
+}
+/* 5 9s */
+
+.nav-scrolled{
+    box-shadow: -5px 5px 19px -5px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: -5px 5px 19px -5px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: -5px 5px 19px -5px rgba(0, 0, 0, 0.08);
+}
+
+.nav-wrapper{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* left */
+.nav-left{
+    flex: 1;
+}
+
+.nav-title{
+    text-decoration: none;
+    color: rgb(228, 27, 27);
+    font-weight: bold;
+    font-size: 28px;
+}
+
+/* center */
+.nav-center{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-listItem{
+    font-size: 17px;
+    color: #444;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 150ms all;
+}
+
+.nav-listItem:hover{
+    color: #888;
+}
+
+.nav-listItem > a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* right */
+.nav-right{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.nav-cartContainer{
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-userIcon,
+.nav-cartIcon{
+    font-size: 24px;
+    cursor: pointer;
+    color: black;
+}
+
+.nav-cartQuantity{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-color: #f00;
+    color: #fff;
+    bottom: 1.1rem;
+    left: 0.9rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+.nav-logout{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.nav-logout-icon{
+    margin-left: 5px;
+    margin-right: -12px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 5px 
+}
+
+
+@media(min-width:320px) and (max-width:575px) {}
+@media(min-width:576px) and (max-width:767px) {}
+@media(min-width:768px) and (max-width:991px) {}
+@media(min-width:992px) and (max-width:1199px) {}

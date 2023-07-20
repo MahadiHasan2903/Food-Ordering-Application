@@ -1,0 +1,152 @@
+.food-details-container{
+    height: 100%;
+    width: 100%;
+    margin-top: 7rem;
+}
+
+.food-details-wrapper{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 125px;
+}
+
+
+.food-details-left{
+    width: 50%;
+    height: 100%;
+}
+
+.food-details-left > img{
+    height: 625px;
+    width: 625px;
+    object-fit: cover;
+}
+
+
+.food-details-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: auto;
+    margin-top: 1.5rem;
+}
+
+.food-details-title{
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+
+.food-details-quantity{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 20px;
+}
+
+.food-details-quantity > button{
+    padding: 0.5rem 1rem;
+    border: 1px solid #333;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.food-details-quantity > button:disabled{
+    background-color: #999;
+    color: #ede8e8;
+    cursor: not-allowed;
+}
+
+.food-details-quantity > .quantityNumber{
+    padding: 0;
+    border: none;
+    cursor: default;
+}
+
+.food-details-quantity > button:hover{
+    background-color: #e0d8d8;
+}
+
+.food-details-productDesc{
+    margin-top: 40px;
+}
+
+.food-details-productDesc > div{
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.food-details-productDesc > p{
+    color: #555;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.food-details-category{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 30px 0;
+}
+
+.food-details-category > h3{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.food-details-category > .food-details-categoryName{
+    padding: 0.5rem 1.5rem;
+    background-color: #f00;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.food-details-category > .food-details-categoryName:hover{
+    border-color: #f00;
+    background-color: #fff;
+    color: #f00;
+}
+
+.food-details-price{
+    font-size: 28px;
+    color: #f00;
+}
+
+.food-details-price > span{
+    font-size: 24px;
+}
+
+.food-details-addToCart{
+    outline: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 1.5rem;
+    margin-top: 2rem;
+    background-color: #f00;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.food-details-addToCart:hover{
+    border-color: #f00;
+    color: #f00;
+    background-color: #fff;
+}
