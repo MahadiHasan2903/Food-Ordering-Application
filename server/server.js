@@ -20,7 +20,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://mh-slice.netlify.app",
+    origin: "https://mh-slice-client-mern.vercel.app",
     credentials: true,
   })
 );

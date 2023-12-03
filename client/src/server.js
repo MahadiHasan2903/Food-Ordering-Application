@@ -1,1 +1,1 @@
-export const server = "https://food-ordering-application.onrender.com";
+export const server = "https://mh-slice-server-mern.vercel.app";
