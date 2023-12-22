@@ -21,6 +21,7 @@ const app = express();
 app.use(
   cors({
     origin: "https://mh-slice-client-mern.vercel.app",
+    // origin: " http://localhost:3000",
     credentials: true,
   })
 );
